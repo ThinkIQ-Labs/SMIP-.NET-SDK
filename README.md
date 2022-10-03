@@ -32,7 +32,7 @@ Console.WriteLine(aEntry.tokenString);
 
 We have two methods to make requests: either get a JObject with the complete response or specify the node and have the response explicitely cast as a SMIP SDK object.
 
-The following object types are included. The list can easily be extended as needed:
+The following object types are included: 
 
 - Attribute
 - Equipment
@@ -40,6 +40,8 @@ The following object types are included. The list can easily be extended as need
 - Quantity
 - Thing (the base class for most object types in the smip)
 - TimeSeries (a time series record with timestamp, intvalue, and an example of timezone conversion using NodaTime)
+
+The list can easily be extended as needed.
 
 ``` C#
 // get quantities
