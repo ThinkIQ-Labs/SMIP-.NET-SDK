@@ -50,7 +50,7 @@ Console.WriteLine(JsonConvert.SerializeObject(aResult, Formatting.Indented));
 ```
 
 ``` C#
-// get quanities as object
+// get quantities as object
 // here we return a List<SmipQuantity>
 // note that each quantity can include units if they are included in the query
 var allQuantities = await aEntry.GetGraphQLDataAsync<List<SmipQuantity>>(
