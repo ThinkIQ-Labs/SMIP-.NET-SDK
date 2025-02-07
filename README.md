@@ -4,6 +4,16 @@
 
 Refer to the [test project](./smip.sdk.test/Program.cs) for a short console application demonstrating the usage of the SDK.
 
+Note: when referencing the smip.sdk accross solutions, the following packages need to get installed:
+
+- GraphQL.Client
+- GraphQL.Client.Serializer.Newtonsoft
+- Microsoft.Extensions.Configuration.Binder
+- Microsoft.Extensions.Configuration.EnvironmentVariables
+- Microsoft.Extensions.Configuration.UserSecrets
+- Newtonsoft.Json
+- System.IdentityModel.Tokens.Jwt
+
 ### Authenticator Class and Configuration
 
 We can use either an appsettings.json or a user secrets json file to store the required authenticator information, including:
